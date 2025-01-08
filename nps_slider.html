@@ -7,14 +7,14 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      text-align: left; /* Align content to the left */
       background-color: #fff;
-      margin: 50px;
+      margin: 20px; /* Add some space around the content */
     }
 
     .slider-container {
       width: 250px;
-      margin: 0 auto;
+      margin: 0; /* Remove centering margin */
     }
 
     .slider-wrapper {
@@ -138,7 +138,7 @@
       submitButton.disabled = true;
 
       // Update result on the page
-     // result.textContent = `You selected: ${ratingValue}`;
+      // result.textContent = `You selected: ${ratingValue}`;
 
       // Post the message to the parent window
       window.parent.postMessage({
